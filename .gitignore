@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data: never commit raw dumps or processed corpora
+data/
+*.xml.gz
+dblp.xml
+dblp.dtd
